@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family: Montserrat,Sans-Serif;
+  background-color: black;
+}
+
+
+.container {
+  width: 97%;
+  margin-inline: auto;
+}
+
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7)50%,rgba(0, 0, 0, 0.7)50%), url('foto2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.logo {
+  font-weight: 600;
+  border: 1px solid #fff9;
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu>li {
+  list-style: none;
+}
+
+.menu>li>a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff9;
+  border-radius: 5px;
+}
+
+.menu>li>a:hover {
+  background-color: green;
+  border-radius: 5px;
+  transition: all ease-in-out .25s;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero>h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 600;
+  font-family: Lobster , cursive;
+}
+
+.hero>p {
+  font-size: 16px;
+  max-width: 400px;
+  font-weight: 2;
+  font-family: Montserrat,Sans-Serif;
+}
+
+.hero>h2 {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: Lobster , cursive;
+}
+
+/* gambar */
+.gbr {
+  width: 100%;
+  min-height:100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7)50%,rgba(0, 0, 0, 0.7)50%), url('gambar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.judul {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 50px;
+  font-weight:600;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-family: Lobster , cursive;
+}
+
+.isi {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 10;
+  color: white;
+  font-family: Montserrat,Sans-Serif;
+}
+
+.swiper mySwiper {
+  margin-top:20px;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 200px;
+}
+
+.dec {
+  margin-top: 10px;
+}
+
+.dec>img {
+  width: 100%;
+  height:5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.dec>p {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  margin-bottom:5px;
+}
+
+.dec>h4 {
+  color:white;
+}
+
+.dec>h2 {
+  color: white;
+}
+
+button {
+  font-weight:600;
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* masukan */
+.masukan {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7)50%,rgba(0, 0, 0, 0.7)50%), url('masukan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.waper {
+  width: 100%;
+  height: 100;
+  border-radius: white;
+  color: white;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+.fo {
+  font-size: 50px;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  height: 40px;
+  background-color: tomato;
+  margin: 30px 0;
+}
+
+.input-box>input {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+button {
+  font-weight:600;
+  font-size: 20px;
+}
+.btn {
+ width: 100%;
+ height: 100%;
+ border: 3px solid black;
+ border-radius: 5px;
+ margin-top:30px;
+ background-color: green;
+}
+
+.btn:hover{
+  background-color: #fff9;
+  transition: all ease-in-out .2s;
+}
+
+.text-masukan {
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Montserrat,Sans-Serif;
+  color: white;
+}
+
+
+
+/* footer */
+footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
